@@ -3,6 +3,11 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>" >
     <meta name='viewport' content='width=device-width, initial-scale=1' >
+    <style>
+      a {
+        margin: 1px;
+      }
+    </style>
     <?php wp_head(); ?>
   </head>
   <body <?php body_class() ?>>
@@ -24,6 +29,9 @@
         <div class="site-header__util">
           <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
           <a href="#" class="btn btn--small  btn--dark-orange float-left">Sign Up</a>
+          <a href="#" class="btn btn--small  btn--dark-orange float-left">New Button 1</a>
+          <a href="#" class="btn btn--small  btn--dark-orange float-left">New Button 2</a>
+          <a href="#" class="btn btn--small  btn--dark-orange float-left">New Button 3</a>
           <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         </div>
       </div>
